@@ -150,9 +150,16 @@ nav a:hover,
 	height: 143px;
 	background: url(../image/sth.png) no-repeat;
 	background-position: -691px -480px;
+	opacity: 0.8;
 }
 #play_video:hover {
-	background-position: -834px -480px;
+	-webkit-transition: all .1s linear;
+	-moz-transition: all .1s linear;
+	-ms-transition: all .1s linear;
+	-o-transition: all .1s linear;
+	transition: all .1s linear;
+	opacity: 1;
+	/*background-position: -834px -480px;*/
 }
 #companyname {
 	width: 408px;
@@ -165,7 +172,7 @@ nav a:hover,
 	color: #fff;
 	text-align: center;
 	margin-top: 152px;
-	margin-bottom: 385px;
+	margin-bottom: 365px;
 }
 #appdetail-bt {
 	display: block;
@@ -177,11 +184,12 @@ nav a:hover,
 	-moz-border-radius: 22px;
 	border-radius: 22px;
 	padding: 0 22px;
-	margin: 8px 0 8px 17px;
+	margin: 13px 0 0 17px;
 }
 #appdetail-bt b {
 	color: #fff;
 	font-size: 14px;
+	font-weight: normal;
 }
 #appdetail-bt b:after {
 	position: relative;
@@ -195,8 +203,8 @@ nav a:hover,
 	background: url(../image/sth.png) no-repeat -701px 0;
 }
 #honor p {
-	font-size: 15px;
-	line-height: 24px;
+	font-size: 12px;
+	margin-top: 3px;
 	text-align: right;
 	margin-right: 10px;
 }
@@ -348,8 +356,8 @@ nav a:hover,
 	line-height: 90px;
 }
 #userapp-intr .left p {
-	font-size: 14px;
-	line-height: 25px;
+	font-size: 12px;
+	line-height: 22px;
 }
 #userapp-intr .right {
 	width: 50%;
@@ -401,6 +409,7 @@ nav a:hover,
 	margin-top: 30px;
 	text-align: center;
 	font-size: 16px;
+	color: #737373;
 }
 .demo-show-bt {
 	padding: 50px 0;
@@ -412,7 +421,7 @@ nav a:hover,
 	background: #e9e7d7 url(../image/mid-banner2.jpg) 50% 56px no-repeat;
 }
 #userrole .servicebt {
-	margin: 20px auto 50px auto;
+	margin: 70px auto 0 auto;
 }
 #userrole .service-module {
 	margin-top: 50px;
